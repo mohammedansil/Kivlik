@@ -1,0 +1,205 @@
+.Container{
+    width: 100%;
+   /* height: 50.29rem; */
+   /* height: 5-; */
+}
+.Footer{
+    width: 100%;
+    height: 100%;
+    padding: 110px 0px;
+    background-color: #F6F6F6;
+}
+.FooterContent{
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Menu{
+    width: 15%;
+    height: 100%;
+}
+.Help{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Logo,.Menu,.Help{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.About{
+    width: 42%;
+}
+.Description{
+    font-size: 2.6rem;
+    text-align: left;
+    margin-top: 5.6rem;
+    line-height:5.0rem;
+}
+.Head{
+    font-size: 3.40rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 4.8rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+.Menu ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+    justify-content: space-between;
+    padding: 0;
+}
+.Menu ul li{
+    font-size: 2.38rem;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+.HelpCenter{
+    font-size: 4.54rem;
+    margin: 0;
+    text-align: left;
+    /* margin-bottom: 3.4rem; */
+}
+.SocialMedia{
+    margin-bottom: 4.54rem;
+    margin-top: 5.65rem;
+}
+.SocialMedia p{
+    font-size: 2.38rem;
+    text-align: left;
+}
+.AppIcons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.PlayStore{
+    margin-left: 15px;
+}
+.AppStore,.PlayStore{
+    width: 100%;
+}
+.AppStore img,.PlayStore img{
+    width: 100%;
+}
+.icons svg{
+    color: #20404A;
+    font-size: 4rem;
+    margin: 0 20px;
+    margin-left: 0;
+}
+.Copyright{
+    width: 80%;
+    height: 11.65rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Copyright p{
+    font-size: 2.2rem;
+}
+.Copyright ul{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.Copyright ul li{
+    font-size: 2.2rem;
+    padding: 0 15px;
+    border-right: 1px solid #000;
+
+}
+@media(max-width:768px){
+    .Footer{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .FooterContent{
+        width: 90%;
+        flex-direction: column;
+    }
+    .About,.Help,.Menu{
+        width: 100%;
+    }
+   
+    .Description p{
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+    .Head{
+        font-size: 2.5rem;
+    }
+    .Menu ul li{
+        font-size: 1.5rem;
+    }
+    .Logo{
+        width: 45%;
+    }
+    .Logo img{
+        width: 100%;
+    }
+    .Head{
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .HelpCenter{
+        font-size: 1.75rem;
+        margin-top: 1.5rem;
+    }
+    .SocialMedia{
+        margin: 0;
+    }
+    .SocialMedia p{
+        font-size: 1.75rem;
+    }
+    .icons svg{
+        font-size: 2.5rem;
+    }
+    .AppIcons{
+        margin-top: 2rem;
+    }
+    .Menu ul li{
+        margin: 1rem 0;
+    }
+    .Copyright{
+        height: 5rem;
+        flex-direction: column;
+        
+    }
+    .Copyright p{
+        font-size: 1.25rem;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .menu ul li{
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,259 @@
+.FormContainer{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.54rem;
+}
+.Career{
+    width: 80%;
+    height: auto;
+    margin-left: auto;margin-right: auto;
+
+}
+.Head{
+
+}
+.Title{
+    font-size: 4.54rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+}
+
+.Description{
+    font-weight: 400;
+    font-size: 3.40rem;
+    margin: 0;
+    text-align: left;
+}
+.Form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.FormTitle{
+    font-size: 3.40rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: left;
+}
+.FormDescription{
+    margin-top: 0;
+    font-size: 2.27rem;
+    text-align: left;
+    font-weight: 400;
+}
+.Email,.BasicInfo{
+    margin-top: 4.54rem;
+}
+.Email,.FirstName,.LastName,.Telephone,.Upload{
+    display: flex;
+    flex-direction: column;
+}
+.BasicInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Form,.Email,.FirstName,.LastName,.Telephone,.Upload,.BasicInfo{
+    width: 100%;
+}
+.Email,.FirstName,.LastName,.Telephone,.Upload{
+    width: 30%;
+    
+}
+.FirstName input,.LastName input, .Telephone input,.Email input,.Upload input{
+    width: 100%;
+    border:0.15rem solid #000;
+    border-radius:2rem;
+    height: 7.95rem;
+    font-size: 2.27rem;
+    padding: 0 15px;
+}
+label{
+    font-size: 2.4rem;
+    text-align: left;
+    margin-bottom: 2.26rem;
+}
+.Upload p,.Telephone p{
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 2.26rem;
+    margin-top: 0.25rem;
+}
+.ButtonDiv button{
+    margin-top: 6.81rem;
+    width: 23.87rem;
+    height: 7.95rem;
+    font-size: 3.40rem;
+    background-color: #04A8E8;
+    border-radius: 2.35rem;
+    outline:none;
+    border:none;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+}
+/* .Upload .fileInput{
+    
+    background-color: #BFBFBF;
+    width: 100%;
+    height: 7.95rem;
+    border-radius:2rem;
+    font-size: 2.27rem;
+    padding: 0 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+    border:none;
+    outline:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    vertical-align: middle; */
+
+    /* text-align: center;
+     margin: auto; */
+     
+/* } */
+/* .Upload .fileInput::after{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.Upload .fileInput::-webkit-file-upload-button{
+    display: none;
+} */
+/* .FileWrapper {
+    text-align: center;
+    width: 100%;
+    height: 7.95rem;
+    border-radius:2rem;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    overflow: hidden;
+    background: gray; 
+  } */
+  
+  
+  /* .FileWrapper input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      opacity: 0.0;
+      filter: alpha(opacity=0); 
+      font-size: 300px;
+      height: 7.95rem;
+  } */
+.FileWrapper{
+    background-color: #BFBFBF;
+    width: 100%;
+    height: 7.95rem;
+    border-radius:2rem;
+    font-size: 2.27rem;
+    /* padding: 0 15px; */
+    font-family: "Poppins";
+    font-weight: 400;
+    border:none;
+    outline:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.FileWrapper input{
+    position: absolute;
+    top: 0;right: 0;
+    font-size: 500px;
+    padding: 0;
+    border:none;
+    outline:none;
+    z-index: 9999;
+    opacity: 0.0;
+}
+.FileWrapper input::-webkit-file-upload-button{
+    display: none;
+}
+.FileWrapper p{
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 5%;
+    transform: translate(-0%,-50%);
+    font-size: 2.4rem;
+}
+.FileWrapper svg{
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    right: 10%;
+    transform: translate(-0%,-50%);
+    font-size: 4rem;
+}
+@media(max-width:768px){
+    .Career{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BasicInfo{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .Email,.FirstName,.LastName,.Telephone,.Upload{
+        width: 100%;
+    }
+    .FirstName input,.LastName input, .Telephone input,.Email input,.Upload input,.FileWrapper{
+        width: 100%;
+        height: 4rem;
+        border-radius: 1rem;
+        border-width: 0.1rem;
+        font-size: 1.5rem;
+        padding: 0;
+        margin-bottom: 2.5rem;
+        /* padding-left: 15px; */
+
+    }
+    label,.Upload p,.Telephone p,.FileWrapper p{
+        font-size: 1.5rem;
+    }
+    label{
+        margin-bottom: 1rem;
+    }
+    .FileWrapper svg{
+        font-size: 2rem;
+    }
+    .ButtonDiv{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ButtonDiv button{
+        width: 40%;
+        margin-top: 0;
+        height: 4rem;
+        border-radius: 1rem;
+        border-width: 0.1rem;
+        font-size: 1.5rem;
+    }
+    .FormTitle{
+        font-size: 2rem;
+    }
+    .FormDescription{
+        font-size: 1.5rem;
+    }
+    .Telephone input,.FileWrapper {
+        margin-bottom: 0;
+    }
+}
