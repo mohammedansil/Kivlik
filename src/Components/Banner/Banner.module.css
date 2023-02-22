@@ -100,3 +100,16 @@
     
     
 }
+@media (min-width:768px) and (max-width:1024px){
+    .Banner{
+        margin-bottom: 5rem;
+        height: 30vh;
+    }
+    .backgroundImage{
+        height: 30vh;
+    }
+    .ChairImage{
+        display: none;
+    }
+
+}

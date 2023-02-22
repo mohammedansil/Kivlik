@@ -60,7 +60,7 @@
 .MobileHeader{
     display: none;
 }
-@media(max-width:768px){
+@media(max-width:1065px){
     .Container{
         height: 7.5vh;
     }

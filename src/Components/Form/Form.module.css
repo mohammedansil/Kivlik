@@ -201,7 +201,7 @@ label{
     transform: translate(-0%,-50%);
     font-size: 4rem;
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .Career{
         width: 90%;
         margin-left: auto;
@@ -255,5 +255,38 @@ label{
     }
     .Telephone input,.FileWrapper {
         margin-bottom: 0;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .Title{
+        font-size: 3.2rem;
+    }
+    .BasicInfo{
+        flex-direction: column;
+    }
+    .Description{
+        font-size: 2.4rem;
+    }
+    .FormDescription{
+        font-size: 2.5rem;
+    }
+    .FormTitle{
+        font-size: 3rem;
+    }
+    label,.Upload p,.Telephone p{
+        font-size: 2.25em;
+    }
+    .FirstName input,.LastName input, .Telephone input,.Email input,.Upload input,.FileWrapper{
+        width: 92%;
+        /* height: 5.5rem; */
+        height: 8rem;
+        font-size: 3rem;
+    }
+    .Email,.FirstName,.LastName,.Telephone,.Upload{
+        width: 100%;
+        /* height: 6rem; */
+    }
+    .FileWrapper p{
+        font-size: 2rem;
     }
 }
