@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Kivlik
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a Resume Page done with React and css Module
 
 ## Available Scripts
 
