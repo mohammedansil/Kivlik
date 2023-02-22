@@ -7,6 +7,27 @@ const Header = () => {
     const[active,setActive]=useState("false")
   return (
     <div className={style.Container}>
+         <div className={style.Header}>
+        <div className={style.logo}>
+            <img src={logo} alt="" />
+        </div>
+        <div className={style.menu}>
+            <ul>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div className={style.account}>
+            <div className={style.Login}>
+                <button>Login</button>
+            </div>
+            <div className={style.Sigin}>
+                <button>Signin</button>
+            </div>
+        </div>
+    </div>
         <div className={style.MobileHeader}>
             <div className={style.Icon}>
                 <HiMenu onClick={()=>{
@@ -31,27 +52,7 @@ const Header = () => {
             </div>
         </div>:""}
        
-        <div className={style.Header}>
-        <div className={style.logo}>
-            <img src={logo} alt="" />
-        </div>
-        <div className={style.menu}>
-            <ul>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Pricing</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div className={style.account}>
-            <div className={style.Login}>
-                <button>Login</button>
-            </div>
-            <div className={style.Sigin}>
-                <button>Signin</button>
-            </div>
-        </div>
-    </div>
+       
     </div>
     
   )
